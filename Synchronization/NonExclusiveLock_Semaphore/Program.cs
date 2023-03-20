@@ -8,7 +8,7 @@
         {
             for (int i = 0; i < 5; i++)
             {
-                Thread threadObject = new(Process)
+                Thread threadObject = new(DoSomeWork)
                 {
                     Name = "Thread: " + i
                 };
@@ -17,7 +17,7 @@
             Console.ReadLine();
         }
 
-        private static void Process()
+        private static void DoSomeWork()
         {
             Console.WriteLine("{0} is waiting to enter the critical section.", Thread.CurrentThread.Name);
             semaphore.WaitOne();

@@ -41,13 +41,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPLExample", "AsyncProgramm
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synchronization", "Synchronization", "{F83771DA-4FAB-4816-B430-E17DC02CA994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcslusiveLock_Mutex", "Synchronization\ExcslusiveLock_Mutex\ExcslusiveLock_Mutex.csproj", "{6C78BCBD-2158-4449-909A-B026DF78FDA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcslusiveLock_Mutex", "Synchronization\ExcslusiveLock_Mutex\ExcslusiveLock_Mutex.csproj", "{6C78BCBD-2158-4449-909A-B026DF78FDA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonExclusiveLock_Semaphore", "Synchronization\NonExclusiveLock_Semaphore\NonExclusiveLock_Semaphore.csproj", "{22DE85BA-C929-4590-B5DD-0FFE70D8DB9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonExclusiveLock_Semaphore", "Synchronization\NonExclusiveLock_Semaphore\NonExclusiveLock_Semaphore.csproj", "{22DE85BA-C929-4590-B5DD-0FFE70D8DB9C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{1A1C0185-235E-4F18-A5BD-4F4BAFBB3A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashing", "DataStructures\Hashing\Hashing.csproj", "{A951D3EB-FD2D-43D8-B734-3F66C5A4F609}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hashing", "DataStructures\Hashing\Hashing.csproj", "{A951D3EB-FD2D-43D8-B734-3F66C5A4F609}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConcurrentCollections", "ConcurrentCollections", "{9AB439B1-8CE9-4F7D-B80A-66DE8E7BEBB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentBagDemo", "ConcurrentCollections\ConcurrentBagDemo\ConcurrentBagDemo.csproj", "{97C4A7D6-0FBC-4F0F-9B77-8737BA836843}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +111,10 @@ Global
 		{A951D3EB-FD2D-43D8-B734-3F66C5A4F609}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A951D3EB-FD2D-43D8-B734-3F66C5A4F609}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A951D3EB-FD2D-43D8-B734-3F66C5A4F609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C4A7D6-0FBC-4F0F-9B77-8737BA836843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C4A7D6-0FBC-4F0F-9B77-8737BA836843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C4A7D6-0FBC-4F0F-9B77-8737BA836843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C4A7D6-0FBC-4F0F-9B77-8737BA836843}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,6 +133,7 @@ Global
 		{6C78BCBD-2158-4449-909A-B026DF78FDA9} = {F83771DA-4FAB-4816-B430-E17DC02CA994}
 		{22DE85BA-C929-4590-B5DD-0FFE70D8DB9C} = {F83771DA-4FAB-4816-B430-E17DC02CA994}
 		{A951D3EB-FD2D-43D8-B734-3F66C5A4F609} = {1A1C0185-235E-4F18-A5BD-4F4BAFBB3A87}
+		{97C4A7D6-0FBC-4F0F-9B77-8737BA836843} = {9AB439B1-8CE9-4F7D-B80A-66DE8E7BEBB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9AC6EC07-D3A5-491C-A6F9-9229FFD37FC4}
